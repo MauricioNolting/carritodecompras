@@ -200,7 +200,7 @@ button {
 .nav {
     height: var(--header-height);
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -620,8 +620,9 @@ button {
 .dark__mode__nav {
     background-color: #521b1b;
     max-width: none;
-    margin: 0;
-    justify-content: space-around
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 article.dark__mode {
